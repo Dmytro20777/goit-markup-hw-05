@@ -966,7 +966,7 @@ transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .button-footer {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     font-family: "Roboto", sans-serif;
 font-size: 16px;
@@ -1074,7 +1074,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 24px 24px 24px; 
+    
 
 
    width: 408px; 
