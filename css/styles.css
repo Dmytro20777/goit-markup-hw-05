@@ -1161,11 +1161,8 @@ margin-bottom: 8px;
    
    color: var(--lightslate, #8E8F99);
 
-/* Small Text */
-font-family: Roboto;
+
 font-size: 12px;
-font-style: normal;
-font-weight: 400;
 line-height: 1.17;
 letter-spacing: 0.04em;
 margin-bottom: 4px;
@@ -1222,12 +1219,16 @@ position: relative;
     width: 100%;
     height: 120px;
     padding: 8px 16px;
+    background-color: transparent;
 
 
     font-size: 12px;
-    line-height: 1.6;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     margin-bottom: 16px;
+    color: rgba(46, 47, 66, 0.4);
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-comment::placeholder {
@@ -1238,6 +1239,10 @@ position: relative;
     border-color: #4D5AE5;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-checkbox {
+    margin-bottom: 24px;
 }
 
 .modal-form-agrement {
@@ -1326,6 +1331,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .form-input:focus+.forn-input-icon {
     fill: #4D5AE5; 
+}
+
+.modal-form-area{
+    margin-bottom: 16px;
+
 }
 
 
