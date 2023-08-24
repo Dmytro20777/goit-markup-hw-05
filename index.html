@@ -490,7 +490,9 @@
 
         <form class="form" name="contacts_form" autocomplete="off">
           <div class="modal-form-field">
-            <label class="form-label" for="user-name">Name</label>
+            <label class="form-label-dec form-label" for="user-name"
+              >Name</label
+            >
             <div class="container-field">
               <input
                 class="form-input"
@@ -507,13 +509,13 @@
           </div>
 
           <div class="modal-form-field">
-            <label class="form-label" for="review-form">Phone</label>
+            <label class="form-label" for="user-tel">Phone</label>
             <div class="container-field">
               <input
                 class="form-input"
                 type="tel"
                 name="user_name"
-                id="review-form"
+                id="user-tel"
                 placeholder=""
                 minlength="12"
                 maxlength="12"
@@ -530,7 +532,7 @@
               <input
                 class="form-input"
                 type="email"
-                name="user_name"
+                name="user-email"
                 id="review-form"
                 placeholder=""
                 required
@@ -547,7 +549,6 @@
               class="modal-form-comment"
               name="user-comment"
               id="user-comment"
-              cols=""
               rows="9"
               placeholder="Text input"
               required
@@ -571,6 +572,7 @@
                 </svg>
               </span>
               <a
+                href="#"
                 class="modal-form-link"
                 target="_blank"
                 rel="noopener noreferrer"

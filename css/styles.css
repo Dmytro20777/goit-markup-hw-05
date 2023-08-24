@@ -23,6 +23,7 @@
    --portfolio-button-hover-color:#e7e9fc;
    --socials-item-bg-color:#4d5ae5;
    --link-customers-color:#8e8f99;
+   --checkbox-modal: #F4F4FD;
 /* Others */
 --item: 3;
 --indent: 24px;
@@ -1167,6 +1168,13 @@ letter-spacing: 0.04em;
 margin-bottom: 4px;
 }
 
+/* .form-label-dec {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+} */
+
 .form-label :focus-within {
     color: #4D5AE5;
 }
@@ -1207,8 +1215,10 @@ position: relative;
         font-family: Roboto;
         font-size: 12px;
         font-style: normal;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+        line-height: 1.17;
+        /* line-height: 1.2; */
+        letter-spacing: 0.04em;
+        /* letter-spacing: 0.02em; */
 }
 
 .modal-form-comment {
@@ -1288,7 +1298,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 .checkbox[type="checkbox"]:checked + .modal-form-agrement > .agrement-checkbox{
     background-color: #404BBF;
     border: none;
-    fill: #FFF;
+    fill: var(--checkbox-modal);
 }
 
 .modal-form-link {
