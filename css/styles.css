@@ -1264,9 +1264,10 @@ margin-bottom: 4px;
         height: 16px;
 }
 
-input [type="checkbox"]:checked + .agrement-checkbox {
+input[type="checkbox"]:checked + .agrement-checkbox {
    background-color: #404BBF;
    border-color: #404BBF;
+   fill: #FFFFFF;
 }
 
 .agrement-checkbox-icon {

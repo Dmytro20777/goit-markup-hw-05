@@ -476,11 +476,18 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
         <p class="modal-caption">
           Leave your contacts and we will call you back
         </p>
+
         <form class="form" name="contacts_form" autocomplete="off">
           <div class="modal-form-field">
             <label class="form-label" for="review-form">Name</label>
@@ -546,7 +553,7 @@
               value="yes"
             />
             <span class="agrement-checkbox">
-              <svg class="agrement-checkbox-icon" width="16" height="16">
+              <svg class="agrement-checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-icon-1"></use>
               </svg>
             </span>
@@ -564,11 +571,6 @@
             Send
           </button>
         </form>
-        <button class="modal-btn" type="button" data-modal-close>
-          <svg class="modal-btn-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-          </svg>
-        </button>
       </div>
     </div>
     <script src="./java/modal.js"></script>
